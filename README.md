@@ -1,10 +1,10 @@
 # Examples
 
-<a href="https://travis-ci.org/iris-contrib/examples"><img src="https://img.shields.io/travis/iris-contrib/examples.svg?style=flat-square" alt="Build Status"></a>
-<a href="https://github.com/iris-contrib/examples/blob/master/LICENSE"><img src="https://img.shields.io/badge/%20license-MIT%20%20License%20-E91E63.svg?style=flat-square" alt="License"></a>
-<a href="https://github.com/kataras/iris/blob/master/HISTORY.md"><img src="https://img.shields.io/badge/version-8.x%20-blue.svg?style=flat-square" alt="CHANGELOG/HISTORY"></a>
+<a href="https://travis-ci.org/iris-contrib/examples"><img src="https://img.shields.io/travis/iris-contrib/examples.svg?branch=v8&style=flat-square" alt="Build Status"></a>
+<a href="https://github.com/iris-contrib/examples/blob/v8/LICENSE"><img src="https://img.shields.io/badge/%20license-MIT%20%20License%20-E91E63.svg?style=flat-square" alt="License"></a>
+<a href="https://github.com/kataras/iris/blob/v8/HISTORY.md"><img src="https://img.shields.io/badge/version-8.5.9-final%20-blue.svg?style=flat-square" alt="CHANGELOG/HISTORY"></a>
 
-This repository provides easy to understand code snippets on how to get started with web development with the Go programming language using the [Iris](https://github.com/kataras/iris) web framework.
+This repository provides easy to understand code snippets on how to get started with web development with the Go programming language using the [Iris v8](https://github.com/kataras/iris/tree/v8) web framework.
 
 It doesn't contains "best ways" neither explains all its features. It's just a simple, practical cookbook for young Gophers!
 
@@ -128,15 +128,16 @@ It doesn't contains "best ways" neither explains all its features. It's just a s
     * [Secure](experimental-handlers/secure/simple/main.go)
     * [Tollboothic](experimental-handlers/tollboothic/limit-handler/main.go)
 
-> Do not forget to [star or watch the project](https://github.com/kataras/iris/stargazers) in order to stay updated with the latest tech trends, it takes some seconds for the sake of go!
-
+> Do not forget to [star or watch the project](https://github.com/kataras/iris/stargazers) in order to stay updated with the latest tech trends!
 > Examples are tested using Windows 10, Ubuntu 16.10 with [Microsoft's Visual Studio Code](https://code.visualstudio.com/) and built using the [Go 1.9](https://golang.org/dl).
 
 ## Run
 
-1. Install the Go Programming Language, version 1.9 from [here](https://golang.org/dl).
-2. Install Iris: `go get -u github.com/kataras/iris`
-3. [Download the examples](https://github.com/iris-contrib/examples/archive/master.zip) and copy-paste them to your `$GOPATH/src/github.com/iris-contrib/examples`
+1. Install Iris v8: https://github.com/kataras/iris/tree/v8#installation
+2. clear yours previously `$GOPATH/src/github.com/iris-contrib/examples` folder or create new
+3. download the Iris v8.5.9 (final): https://github.com/iris-contrib/examples/archive/v8.zip
+4. extract the contents of the `examples-v8` folder that's inside the downloaded zip file to your `$GOPATH/src/github.com/iris-contrib/examples`
+5. navigate to your `$GOPATH/src/github.com/iris-contrib/examples` folder if you're not already there and open a terminal/command prompt, execute the command: `go get ./...` and you're ready to GO:)
 
 And run
 
@@ -144,11 +145,3 @@ And run
 $ cd $GOPATH/src/github.com/iris-contrib/examples/overview
 $ go run main.go
 ```
-
-## Any troubles with examples?
-
-    https://github.com/iris-contrib/examples/issues
-
-## Su, 04 June 2017
-
-This repository is just a minor of the https://github.com/kataras/iris/master/_examples folder.
